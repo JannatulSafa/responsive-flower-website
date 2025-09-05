@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+  .width{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+ .nav{
+  margin-top: 20px;
+    display: flex; 
+   align-items: center;
+   justify-content: space-between;
+ }
+ .nav img{
+  width: 138px;
+  height: 82px;
+ }
+ .nav-items ul{
+  display: flex;
+  list-style: none;
+  gap: 60px;  
+  
+ }
+ .nav-items ul  a{
+  text-decoration: none;  
+ }
+ .home{
+  font-size: 16px;
+  font-weight: 700;
+ }
+ .grey{
+  color: rgba(137, 135, 161, 1);
+  font-size: 16px;
+
+ }
+ .black{
+  color: black;
+ }
+ .cart{
+  font-size: 15px;
+ }
+ .banner{
+  display: flex;
+  margin-top: 121px;
+ }
+ .banner-part{
+  width: 570px;
+  height: 430px;
+ }
+ .banner-title{
+  font-size: 65px;
+  font-weight: 700;
+  width: 570px;
+  height: 150px;
+ }
+ .orange{
+  color: rgba(233, 90, 8, 1);
+ }
+ .banner-description{
+  width: 570px;
+  height: 108px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  margin-top: -20px;
+ }
+ .banner img{
+  width: 570px;
+  height: 340px;
+ }
