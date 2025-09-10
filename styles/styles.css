@@ -134,7 +134,46 @@
       font-size: 16px;
       font-weight: 600;
      }
+    
+     /* plants and flowers part */
+    
+     .plants-and-flowers{
+      display: flex;
+      margin-top: 213px;
+     }
+     
+     .img-1{
+      width: 540px;
+      height: 597px;
+     }
+     .about-plants-and-flowers{
+      width: 540px;
+      height: 521px;
+      padding: 38px 0px 40px 60px;
 
+     }
+     .about-plants-and-flowers img{
+      width: 286px;
+      height: 286px;
+      margin-top: -180px;
+      margin-left: -240px;
+     }
+     .plants-and-flowers-title{
+      margin-top: -85px;
+      font-size: 50px;
+      font-weight: 700;
+      margin-left: 15px;
+     }
+     
+     .plants-and-flowers-list {
+      width: 540px;
+      height: 108px;
+      font-size: 22px;
+      color: rgba(0, 0, 0, 0.5);
+     }
+     .plants-and-flowers-list li{
+      margin-bottom: 20px;
+     }
 
  @media screen and (max-width:576px){
   .nav{
@@ -193,7 +232,7 @@
       font-size: 17px;
       padding: 16px 126px 49px 150px;
       text-align: center;
-      margin-left: -105px;
+      margin-left: -120px;
       margin-top: -30px;
  }
   .plants-cart{
@@ -204,12 +243,11 @@
      .plants-cart img{
       width: 171px;
       height: 196px;
-      gap: ;
      }
      .cart-item{
       width: 171px;
       height: 340px;
-      gap:20px ;
+      gap: 20px;
      }
      .cart-price{
       margin-top: 30px;
@@ -221,5 +259,35 @@
       padding: 10px 5px 10px 5px;
     
      }
-
+     .plants-and-flowers{
+      flex-direction: column;
+      margin-top: 20px;
+     }
+      
+     .plants-and-flowers img{
+        width: 365px;
+        height: 405px;
+        margin-left: 5px;
+     }
+     .about-plants-and-flowers{
+      width: 361px;
+      height: 261px;
+      margin-top: -125px;
+      margin-left: -65px;
+     }
+     .plants-and-flowers-title{
+      font-size: 24px;
+      width: 270px;
+      height: 33px;
+      margin-top: px;
+      margin-bottom: 50px;
+     }
+     .plants-and-flowers-list{
+      width: 361px;
+      height: 51px;
+      font-size: 18px;
+     }
+     .about-plants-and-flowers img{
+      display: none;
+     }
  }
