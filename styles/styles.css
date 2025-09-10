@@ -75,3 +75,151 @@
   width: 570px;
   height: 340px;
  }
+ main{
+  max-width: 1140px;
+  margin: 0 auto;
+ }
+
+ /* our plants styles */
+    .plants{
+      text-align: center;
+      margin-top: -50px;
+    
+    }
+    .plants-title{
+      font-size: 50px;
+      font-weight: 700;
+    }
+     .plants-description{
+      width: 550px;
+      height: 54px;
+      font-size: 17px;
+      padding: 16px 126px 49px 150px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-left: 150px;
+      margin-top: -30px;
+
+     }
+
+     /* plants cart styles */
+
+     .plants-cart{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+     }
+      
+     .cart-item{
+      text-align: center;
+     }
+
+
+     .cart-item-title{
+      margin-top: 10px;
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: -30px;
+     }
+     .cart-price{
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 20px;
+     }
+     
+     .cart-button{
+      background-color: rgba(233, 90, 8, 1);
+      color: antiquewhite;
+      margin-bottom: 30px;
+      padding: 19px 80px 19px 80px;
+      border: none;
+      font-size: 16px;
+      font-weight: 600;
+     }
+
+
+ @media screen and (max-width:576px){
+  .nav{
+    width: 200px;
+    height: 38px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 10px;
+  
+  }
+  .cart{
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: 500;
+    width: 150px;
+    height: 24px;
+    margin-left: 75px;
+    justify-content: space-between;
+
+  }
+
+  .home, .grey{
+    display: none;
+  }
+  .banner img{
+    width: 100%;
+    height: auto;
+  }
+  .banner{
+    flex-direction: column-reverse;
+  }
+  .banner-part{
+    margin-left: 10px;
+  width: 361px;
+  height: 161px;
+ }
+ .banner-title{
+  margin-top: 20px;
+   width: 360px;
+  height: 70px;
+  font-size: 24px;
+ }
+ .banner-description{
+  width: 368px;
+  height: 68px;
+  font-size: 16px;
+ }
+
+ .plants-title{
+  margin-top: 70px;
+ }
+ .plants-description{
+  
+      width: 336px;
+      height: 54px;
+      font-size: 17px;
+      padding: 16px 126px 49px 150px;
+      text-align: center;
+      margin-left: -105px;
+      margin-top: -30px;
+ }
+  .plants-cart{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      margin-left: 10px;
+     }
+     .plants-cart img{
+      width: 171px;
+      height: 196px;
+      gap: ;
+     }
+     .cart-item{
+      width: 171px;
+      height: 340px;
+      gap:20px ;
+     }
+     .cart-price{
+      margin-top: 30px;
+     }
+     .cart-button{
+      width: 171px;
+      height: 50px;
+      margin-top: -30px;
+      padding: 10px 5px 10px 5px;
+    
+     }
+
+ }
